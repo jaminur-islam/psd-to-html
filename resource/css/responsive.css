@@ -1,0 +1,164 @@
+/* 1200px */
+
+@media only screen and (max-width: 1200px) {
+    header {
+        height: 65vh;
+    }
+    .row {
+        margin: 0 15px;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+/* 1024px */
+
+@media only screen and (min-width: 1024px){
+    .sticky .logo {
+              margin-bottom: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        height: 60vh;
+    }
+
+    .mobail-menu span {
+        display: block;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 57.5%;
+    }
+
+    .clients-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .clients-review {
+        width: 95%;
+        float: none;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .contact-section form {
+        width: 100%;
+    }
+}
+
+
+/* 980px */
+
+@media only screen and (max-width: 980px) {
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .box p {
+        width: 75%;
+        margin: auto;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .team-section p {
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+    .fooder-section ul li {
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+    .header-section h1 {
+        font-size: 3.2rem;
+    }
+
+    .h2 {
+        font-size: 3rem;
+    }
+
+    .h3 {
+        font-size: 2rem;
+    }
+
+    .little-description,
+    .skill-section p,
+    .portfolio-section p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .clients-review p {
+        font-size: 1.6rem;
+        ;
+    }
+}
+
+
+
+/* 4 */
+
+@media only screen and (max-width: 480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    .header-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .h2 {
+        font-size: 2.5rem;
+    }
+
+    .h3 {
+        font-size: 2rem;
+    }
+
+    header {
+        height: 75vh;
+    }
+    .logo {
+        margin-top: 1rem;
+    }
+
+    .textmonal-section .col:nth-child(3),
+    .textmonal-section .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+
+    .contact-section .input-btn {
+        padding: 1.5rem 4rem;
+}
+
+}
